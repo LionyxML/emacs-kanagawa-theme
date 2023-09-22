@@ -23,6 +23,7 @@ Palette of Emacs theme in [kanagawa.nvim](https://github.com/rebelot/kanagawa.nv
 
 <details>
     <summary markdown="span">Agda</summary>
+
 | Agda                                                                           |
 | ------------------------------------------------------------------------------ |
 | ![Agda](https://github.com/Meritamen/kanagawa/blob/master/screenshots/Agda.png)|
