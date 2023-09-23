@@ -5,14 +5,3 @@ Palette of Emacs theme in [[https://github.com/rebelot/kanagawa.nvim][kanagawa.n
 
 - [[https://github.com/konrad1977/kanagawa-emacs][konrad1977/kanagawa-emacs]]
 - [[https://github.com/rebelot/kanagawa.nvim][rebelot/kanagawa.nvim]]
-
-** License
-
-This Emacs theme is released under the MIT license, which grants the following permissions:
-
-- Commercial use
-- Distribution
-- Modification
-- Private use
-
-For more convoluted language, see the [[https://github.com/Meritamen/kanagawa-theme/blob/master/LICENSE][LICENSE]].
