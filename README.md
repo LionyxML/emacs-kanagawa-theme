@@ -6,27 +6,27 @@ Palette of Emacs theme in [kanagawa.nvim](https://github.com/rebelot/kanagawa.nv
 <details>
     <summary markdown="span">Emacs Lisp</summary>
 
-| Emacs Lisp                                                                        |
-| ----------------------------------------------------------------------------------|
-| ![Elisp](https://github.com/Meritamen/kanagawa/blob/master/screenshots/Elisp.png) |
+| Emacs Lisp                        |
+| ----------------------------------|
+| ![Elisp](./screenshots/Elisp.png) |
 
 </details>
 
 <details>
     <summary markdown="span">C++</summary>
 
-| C++                                                                          |
-| ---------------------------------------------------------------------------- |
-| ![Cpp](https://github.com/Meritamen/kanagawa/blob/master/screenshots/Cpp.png)|
+| C++                          |
+| -----------------------------|
+| ![Cpp](./screenshots/Cpp.png)|
   
 </details>
 
 <details>
     <summary markdown="span">Agda</summary>
 
-| Agda                                                                           |
-| ------------------------------------------------------------------------------ |
-| ![Agda](https://github.com/Meritamen/kanagawa/blob/master/screenshots/Agda.png)|
+| Agda                           |
+| -------------------------------|
+| ![Agda](./screenshots/Agda.png)|
 
 </details>
 
