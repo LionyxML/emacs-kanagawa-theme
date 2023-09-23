@@ -1,4 +1,4 @@
-* kanagawa
+* kanagawa-theme
 Palette of Emacs theme in [[https://github.com/rebelot/kanagawa.nvim][kanagawa.nvim]] isn't 100% aligned with the original Neovim kanagawa theme, thus I adjusted to myself preference.
 
 ** Acknowledgement
