@@ -1,10 +1,10 @@
 * kanagawa
-Palette of Emacs theme in [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) isn't 100% aligned with the original Neovim kanagawa theme, thus I adjusted to myself preference.
+Palette of Emacs theme in [[https://github.com/rebelot/kanagawa.nvim][kanagawa.nvim]] isn't 100% aligned with the original Neovim kanagawa theme, thus I adjusted to myself preference.
 
 ** Acknowledgement
 
-- [konrad1977/kanagawa-emacs](https://github.com/konrad1977/kanagawa-emacs)
-- [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
+- [[https://github.com/konrad1977/kanagawa-emacs][konrad1977/kanagawa-emacs]]
+- [[https://github.com/rebelot/kanagawa.nvim][rebelot/kanagawa.nvim]]
 
 ** License
 
@@ -15,4 +15,4 @@ This Emacs theme is released under the MIT license, which grants the following p
 - Modification
 - Private use
 
-For more convoluted language, see the [LICENSE](https://github.com/Meritamen/kanagawa-theme/blob/master/LICENSE).
+For more convoluted language, see the [[https://github.com/Meritamen/kanagawa-theme/blob/master/LICENSE][LICENSE]].
