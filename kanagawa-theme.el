@@ -106,7 +106,7 @@
   ;; Font lock
   (font-lock-type-face                           (:foreground waveAqua2))
   (font-lock-regexp-grouping-backslash           (:foreground boatYellow2))
-  (font-lock-keyword-face                        (:foreground oniViolet :weight 'semi-bold))
+  (font-lock-keyword-face                        (:foreground oniViolet :weight 'semi-bold :italic t))
   (font-lock-warning-face                        (:foreground roninYellow))
   (font-lock-string-face                         (:foreground springGreen :italic t))
   (font-lock-builtin-face                        (:foreground springBlue))
