@@ -15,21 +15,21 @@
   (error "Requires Emacs 24 or later"))
 
 (defgroup kanagawa-theme nil
-	"Kanagawa-theme options."
-	:group 'faces)
+  "Kanagawa-theme options."
+  :group 'faces)
 
 (defcustom kanagawa-theme-comment-italic t
-	"Enable italics for comments and also disable background."
-	:type 'boolean
-	:group 'kanagawa-theme)
+  "Enable italics for comments and also disable background."
+  :type 'boolean
+  :group 'kanagawa-theme)
 
 (defcustom kanagawa-theme-keyword-italic t
-	"Enable italics for keywords."
-	:type 'boolean
-	:group 'kanagawa-theme)
+  "Enable italics for keywords."
+  :type 'boolean
+  :group 'kanagawa-theme)
 
 (autothemer-deftheme
-	kanagawa "A theme inspired by the colors of the famous painting by Katsushika Hokusa"
+  kanagawa "A theme inspired by the colors of the famous painting by Katsushika Hokusa"
 
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
