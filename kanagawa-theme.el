@@ -1,3 +1,5 @@
+;;; kanagawa-theme.el --- -*- lexical-binding: t -*-
+
 ;;; package: --- A theme inspired by the colors of the famous painting by Katsushika Hokusa
 
 ;;; Commentary:
