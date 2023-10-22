@@ -1,9 +1,39 @@
-;;; kanagawa-theme.el --- -*- lexical-binding: t -*-
+;;; kanagawa-theme.el --- Retro elegant theme -*- lexical-binding: t -*-
 
-;;; package: --- A theme inspired by the colors of the famous painting by Katsushika Hokusa
+;; Copyright (C) 2023 Meritamen <meritamen@sdf.org>
+
+;; Author: Meritamen <meritamen@sdf.org>
+;; URL: https://github.com/Meritamen/kanagawa-theme
+;; Version: 0.0.1
+;; Package-Requires: ((autothemer "0.2.18") (emacs "28.1"))
+;; Created: 16 September 2023
+;; Keywords: theme
+
+;; The MIT License (MIT)
+
+;; Permission is hereby granted, free of charge, to any person obtaining
+;; a copy of this software and associated documentation files (the
+;; "Software"), to deal in the Software without restriction, including
+;; without limitation the rights to use, copy, modify, merge, publish,
+;; distribute, sublicense, and/or sell copies of the Software, and to
+;; permit persons to whom the Software is furnished to do so, subject to
+;; the following conditions:
+
+;; The above copyright notice and this permission notice shall be
+;; included in all copies or substantial portions of the Software.
+
+;; THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+;; EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+;; MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+;; IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+;; CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+;; TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+;; SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ;;; Commentary:
 
+;; Kanagawa is a theme inspired by the colors of the famous painting by 
+;; Katsushika Hokusa. 
 ;; Original theme created by rebelot see: https://github.com/rebelot/kanagawa.nvim
 
 ;;; Code:
@@ -15,6 +45,8 @@
 
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
+
+;;; Customizations:
 
 (defgroup kanagawa-theme nil
   "Kanagawa-theme options."
@@ -197,7 +229,7 @@
   (org-meta-line                                 (:background winterGreen :foreground springGreen))
   (org-block                                     (:background sumiInk-0 :foreground sumiInk-4))
   (org-block-begin-line                          (:background winterBlue :foreground springBlue))
-  (org-block-end-line	                         (:background winterRed :foreground peachRed))
+  (org-block-end-line	                           (:background winterRed :foreground peachRed))
   (org-headline-done                             (:foreground dragonBlue :strike-through t))
   (org-todo                                      (:foreground surimiOrange :bold t))
   (org-headline-todo                             (:foreground sumiInk-2))
@@ -223,7 +255,7 @@
   (which-key-command-description-face            (:foreground crystalBlue))
   (which-key-local-map-description-face          (:foreground carpYellow))
   (which-key-posframe                            (:background waveBlue-1))
-  (which-key-posframe-border	                 (:background waveBlue-1))
+  (which-key-posframe-border	                   (:background waveBlue-1))
 
   ;; swiper
   (swiper-line-face                              (:foreground carpYellow))
@@ -520,8 +552,7 @@
   (tree-sitter-hl-face:variable.synthesized      (:foreground waveRed))
   (tree-sitter-hl-face:keyword.compiler          (:foreground peachRed :bold t :italic t))
 
-  (focus-unfocused                               (:foreground sumiInk-4))
- ))
+  (focus-unfocused                               (:foreground sumiInk-4))))
 
 ;;;###autoload
 (and load-file-name
