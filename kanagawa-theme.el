@@ -81,8 +81,8 @@
 
   (wave-blue-1 	   "#223249" "#4e4e4e")
   (wave-blue-2  	 "#2D4F67" "#585858")
-  (wave-aqua1		   "#6A9589" "#6a9589")
-  (wave-aqua2		   "#7AA89F" "#717C7C")
+  (wave-aqua-1		 "#6A9589" "#6a9589")
+  (wave-aqua-2		 "#7AA89F" "#717C7C")
 
   (winter-green	   "#2B3328" "#585858")
   (winter-yellow   "#49443C" "#585858")
@@ -119,7 +119,7 @@
   (
   (default                                       (:background sumi-ink-1b :foreground fuji-white))
   (border                                        (:background sumi-ink-1b :foreground sumi-ink-0))
-  (button                                        (:foreground wave-aqua2))
+  (button                                        (:foreground wave-aqua-2))
   (child-frame                                   (:background sumi-ink-0 :foreground sumi-ink-0))
   (child-frame-border                            (:background sumi-ink-0 :foreground sumi-ink-0))
   (cursor                                        (:background light-blue :foreground sumi-ink-0 :bold t))
@@ -141,12 +141,12 @@
   (mode-line-inactive                            (:background nil :foreground sumi-ink-4 :bold nil))
   (mode-line-active                              (:background sumi-ink-0 :foreground old-white :bold nil))
   (mode-line-highlight                           (:foreground boat-yellow-2))
-  (mode-line-buffer-id                           (:foreground wave-aqua2 :bold t))
+  (mode-line-buffer-id                           (:foreground wave-aqua-2 :bold t))
   (numbers                                       (:background sakura-pink))
   (region                                        (:background wave-blue-2))
   (separator-line                                (:background sumi-ink-0))
   (shadow                                        (:background sumi-ink-0))
-  (success                                       (:foreground wave-aqua2))
+  (success                                       (:foreground wave-aqua-2))
   (vertical-border                               (:foreground sumi-ink-4))
   (warning                                       (:foreground ronin-yellow))
   (window-border                                 (:background sumi-ink-1b))
@@ -154,7 +154,7 @@
   (hi-yellow                                     (:background carp-yellow :foreground sumi-ink-1b))
 
   ;; Font lock
-  (font-lock-type-face                           (:foreground wave-aqua2))
+  (font-lock-type-face                           (:foreground wave-aqua-2))
   (font-lock-regexp-grouping-backslash           (:foreground boat-yellow-2))
   (font-lock-keyword-face                        (:foreground oni-violet :weight 'semi-bold :italic kanagawa-theme-keyword-italic))
   (font-lock-warning-face                        (:foreground ronin-yellow))
@@ -186,7 +186,7 @@
   (doom-modeline-battery-charging                (:foreground fuji-gray))
   (doom-modeline-battery-error                   (:foreground peach-red))
   (doom-modeline-battery-normal                  (:foreground spring-violet-1))
-  (doom-modeline-battery-full                    (:foreground wave-aqua2))
+  (doom-modeline-battery-full                    (:foreground wave-aqua-2))
   
   ;; Doom visual state
   (doom-modeline-evil-motion-state               (:foreground light-blue))
@@ -197,12 +197,12 @@
   (doom-modeline-evil-replace-state              (:foreground ronin-yellow))
   (doom-modeline-evil-operator-state             (:foreground crystal-blue))
 
-  (doom-modeline-project-dir                     (:bold t :foreground wave-aqua2))
-  (doom-modeline-buffer-path                     (:inherit 'bold :foreground wave-aqua2))
+  (doom-modeline-project-dir                     (:bold t :foreground wave-aqua-2))
+  (doom-modeline-buffer-path                     (:inherit 'bold :foreground wave-aqua-2))
   (doom-modeline-buffer-file                     (:inherit 'bold :foreground oni-violet))
   (doom-modeline-buffer-modified                 (:inherit 'bold :foreground carp-yellow))
   (doom-modeline-error                           (:background peach-red))
-  (doom-modeline-buffer-major-mode               (:foreground wave-aqua2 :bold t))
+  (doom-modeline-buffer-major-mode               (:foreground wave-aqua-2 :bold t))
   (doom-modeline-info                            (:bold t :foreground light-blue))
   (doom-modeline-project-dir                     (:bold t :foreground surimi-orange))
   (doom-modeline-bar                             (:bold t :background spring-violet-1))
@@ -211,14 +211,14 @@
 
   ;; elfeed
   (elfeed-search-feed-face                       (:foreground spring-violet-1))
-  (elfeed-search-tag-face                        (:foreground wave-aqua2))
+  (elfeed-search-tag-face                        (:foreground wave-aqua-2))
 
   ;; message colors
   (message-header-name                           (:foreground sumi-ink-4))
   (message-header-other                          (:foreground surimi-orange))
   (message-header-subject                        (:foreground carp-yellow))
   (message-header-to                             (:foreground old-white))
-  (message-header-cc                             (:foreground wave-aqua2))
+  (message-header-cc                             (:foreground wave-aqua-2))
   (message-header-xheader                        (:foreground old-white))
   (custom-link                                   (:foreground crystal-blue))
   (link                                          (:foreground crystal-blue))
@@ -234,7 +234,7 @@
   (org-todo                                      (:foreground surimi-orange :bold t))
   (org-headline-todo                             (:foreground sumi-ink-2))
   (org-upcoming-deadline                         (:foreground peach-red))
-  (org-footnote                                  (:foreground wave-aqua2))
+  (org-footnote                                  (:foreground wave-aqua-2))
   (org-indent                                    (:background sumi-ink-1b :foreground sumi-ink-1b))
   (org-hide                                      (:background sumi-ink-1b :foreground sumi-ink-1b))
   (org-date                                      (:foreground wave-blue-2))
@@ -275,7 +275,7 @@
 
   ;; rainbow delimiters
   (rainbow-delimiters-mismatched-face            (:foreground peach-red))
-  (rainbow-delimiters-unmatched-face             (:foreground wave-aqua2))
+  (rainbow-delimiters-unmatched-face             (:foreground wave-aqua-2))
   (rainbow-delimiters-base-error-face            (:foreground peach-red))
   (rainbow-delimiters-base-face                  (:foreground sumi-ink-4))
 
@@ -283,15 +283,15 @@
   (rainbow-delimiters-depth-2-face               (:foreground dragon-blue))
   (rainbow-delimiters-depth-3-face               (:foreground spring-violet-1))
   (rainbow-delimiters-depth-4-face               (:foreground spring-green))
-  (rainbow-delimiters-depth-5-face               (:foreground wave-aqua2))
+  (rainbow-delimiters-depth-5-face               (:foreground wave-aqua-2))
   (rainbow-delimiters-depth-6-face               (:foreground carp-yellow))
   (rainbow-delimiters-depth-7-face               (:foreground wave-red))
   (rainbow-delimiters-depth-8-face               (:foreground light-blue))
   (rainbow-delimiters-depth-9-face               (:foreground spring-violet-2))
 
   ;; show-paren
-  (show-paren-match                              (:background wave-aqua1 :foreground sumi-ink-0 :bold t))
-  (show-paren-match-expression	                 (:background wave-aqua1 :foreground sumi-ink-0 :bold t))
+  (show-paren-match                              (:background wave-aqua-1 :foreground sumi-ink-0 :bold t))
+  (show-paren-match-expression	                 (:background wave-aqua-1 :foreground sumi-ink-0 :bold t))
   (show-paren-mismatch                           (:background peach-red :foreground old-white))
   (tooltip                                       (:foreground sumi-ink-0 :background carp-yellow :bold t))
   
@@ -323,7 +323,7 @@
   (flycheck-fringe-info                          (:foreground autumn-green))
   (flycheck-error-list-warning                   (:foreground ronin-yellow :bold t))
   (flycheck-error-list-error                     (:foreground samurai-red :bold t))
-  (flycheck-error-list-info                      (:foreground wave-aqua1 :bold t))
+  (flycheck-error-list-info                      (:foreground wave-aqua-1 :bold t))
   (flycheck-inline-error                         (:foreground samurai-red :background winter-red :italic t :bold t :height 138))
   (flycheck-inline-info                          (:foreground light-blue :background winter-blue :italic t  :bold t :height 138))
   (flycheck-inline-warning                       (:foreground winter-yellow :background carp-yellow :italic t :bold t :height 138))
@@ -351,7 +351,7 @@
   (ivy-minibuffer-match-highlight                (:foreground light-blue))
   (ivy-grep-info                                 (:foreground light-blue))
   (ivy-grep-line-number                          (:foreground spring-violet-2))
-  (ivy-confirm-face                              (:foreground wave-aqua2))
+  (ivy-confirm-face                              (:foreground wave-aqua-2))
 
   ;; posframe's
   (ivy-posframe                                  (:background sumi-ink-2))
@@ -394,8 +394,8 @@
   (dashboard-no-items-face                       (:foreground sumi-ink-4))
 
   ;; all-the-icons
-  (all-the-icons-dgreen                          (:foreground wave-aqua2))
-  (all-the-icons-green                           (:foreground wave-aqua2))
+  (all-the-icons-dgreen                          (:foreground wave-aqua-2))
+  (all-the-icons-green                           (:foreground wave-aqua-2))
   (all-the-icons-dpurple                         (:foreground spring-violet-2))
   (all-the-icons-purple                          (:foreground spring-violet-2))
 
@@ -409,7 +409,7 @@
   (term                                          (:background sumi-ink-0 :foreground fuji-white))
   (term-color-blue                               (:background crystal-blue :foreground crystal-blue))
   (term-color-bright-blue                        (:inherit 'term-color-blue))
-  (term-color-green                              (:background wave-aqua2 :foreground wave-aqua2))
+  (term-color-green                              (:background wave-aqua-2 :foreground wave-aqua-2))
   (term-color-bright-green                       (:inherit 'term-color-green))
   (term-color-black                              (:background sumi-ink-0 :foreground fuji-white))
   (term-color-bright-black                       (:background sumi-ink-1b :foreground sumi-ink-1b))
@@ -430,7 +430,7 @@
   (popup-tip-face                                (:inherit 'tooltip))
 
   ;; anzu
-  (anzu-match-1                                  (:foreground wave-aqua2 :background sumi-ink-2))
+  (anzu-match-1                                  (:foreground wave-aqua-2 :background sumi-ink-2))
   (anzu-match-2                                  (:foreground carp-yellow :background sumi-ink-2))
   (anzu-match-3                                  (:foreground light-blue :background sumi-ink-2))
 
@@ -495,7 +495,7 @@
 
   (ansi-color-green                              (:foreground spring-green))
   (ansi-color-black                              (:background sumi-ink-0))
-  (ansi-color-cyan                               (:foreground wave-aqua2))
+  (ansi-color-cyan                               (:foreground wave-aqua-2))
   (ansi-color-magenta                            (:foreground sakura-pink))
   (ansi-color-blue                               (:foreground crystal-blue))
   (ansi-color-red                                (:foreground peach-red))
@@ -528,7 +528,7 @@
   
   (tree-sitter-hl-face:tag                       (:foreground peach-red))
 
-  (tree-sitter-hl-face:type                      (:foreground wave-aqua2 :weight 'semi-bold))
+  (tree-sitter-hl-face:type                      (:foreground wave-aqua-2 :weight 'semi-bold))
   (tree-sitter-hl-face:type.argument             (:foreground surimi-orange))
   (tree-sitter-hl-face:type.builtin              (:foreground autumn-red))
   (tree-sitter-hl-face:type.parameter            (:foreground surimi-orange))
