@@ -1,5 +1,6 @@
 ;;; kanagawa-theme.el --- Retro elegant theme -*- lexical-binding: t -*-
 
+;; Copyright (C) 2023 Mikael Konradsson
 ;; Copyright (C) 2023 Meritamen <meritamen@sdf.org>
 
 ;; Author: Meritamen <meritamen@sdf.org>
