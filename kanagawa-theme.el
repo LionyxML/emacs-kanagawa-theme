@@ -100,7 +100,7 @@ to 'auto, tags may not be properly aligned. "
       (= (tty-display-color-cells) 16777216)))
 
 ;; TODO: Kanagawa Light variant
-(defun create-kanagawa-theme (theme-theme)
+(defun create-kanagawa-theme (theme-name)
   (let ((class '((class color) (min-colors 89)))
         ;; Define Kanagawa color palette
         (fuji-white       (if (true-color-p) "#DCD7BA" "#ffffff"))
@@ -167,10 +167,10 @@ to 'auto, tags may not be properly aligned. "
      `(match                                         ((,class (:background ,carp-yellow :foreground ,sumi-ink-0))))
      `(menu                                          ((,class (:background ,sumi-ink-0 :foreground ,fuji-white))))
      `(mode-line                                     ((,class (:background ,sumi-ink-0))))
-     `(mode-line-inactive                            ((,class (:background ,unspecified :foreground ,sumi-ink-4))))
+     `(mode-line-inactive                            ((,class (:background unspecified :foreground ,sumi-ink-4))))
      `(mode-line-active                              ((,class (:background ,sumi-ink-0 :foreground ,old-white))))
      `(mode-line-highlight                           ((,class (:foreground ,boat-yellow-2))))
-     `(mode-line-buffer-id                           ((,class (:foreground ,wave-aqua-2 :weight ,bold))))
+     `(mode-line-buffer-id                           ((,class (:foreground ,wave-aqua-2 :weight bold))))
      `(numbers                                       ((,class (:background ,sakura-pink))))
      `(region                                        ((,class (:background ,wave-blue-2))))
      `(separator-line                                ((,class (:background ,sumi-ink-0))))
@@ -185,9 +185,9 @@ to 'auto, tags may not be properly aligned. "
      ;; Font lock
      `(font-lock-type-face                           ((,class (:foreground ,wave-aqua-2))))
      `(font-lock-regexp-grouping-backslash           ((,class (:foreground ,boat-yellow-2))))
-     `(font-lock-keyword-face                        ((,class (:foreground ,oni-violet :weight 'semi-bold :slant ,(if kanagawa-theme-keyword-italic 'italic 'normal)))))
+     `(font-lock-keyword-face                        ((,class (:foreground ,oni-violet :weight semi-bold :slant ,(if kanagawa-theme-keyword-italic 'italic 'normal)))))
      `(font-lock-warning-face                        ((,class (:foreground ,ronin-yellow))))
-     `(font-lock-string-face                         ((,class (:foreground ,spring-green :slant 'italic))))
+     `(font-lock-string-face                         ((,class (:foreground ,spring-green :slant italic))))
      `(font-lock-builtin-face                        ((,class (:foreground ,spring-blue))))
      `(font-lock-reference-face                      ((,class (:foreground ,peach-red))))
      `(font-lock-constant-face                       ((,class (:foreground ,carp-yellow))))
@@ -369,7 +369,7 @@ to 'auto, tags may not be properly aligned. "
      `(highlight-operators-face                      ((,class (:foreground ,boat-yellow-2))))
      `(highlight-quoted-symbol                       ((,class (:foreground ,spring-green))))
      `(highlight-numbers-face                        ((,class (:foreground ,sakura-pink))))
-     `(highlight-symbol-face                         ((,class (:background ,wave-blue-1 :foreground mlight-blue))))
+     `(highlight-symbol-face                         ((,class (:background ,wave-blue-1 :foreground ,light-blue))))
 
      ;; ivy
      `(ivy-current-match                             ((,class (:background ,crystal-blue :foreground ,sumi-ink-0 :weight bold))))
@@ -476,7 +476,7 @@ to 'auto, tags may not be properly aligned. "
      ;; vertico
      `(vertico-multiline                             ((,class (:background ,samurai-red))))
      `(vertico-group-title                           ((,class (:background ,winter-blue :foreground ,light-blue :weight bold))))
-     `(vertico-group-separator                       ((,class (:background ,winter-blue :foreground light-blue :strike-through t))))
+     `(vertico-group-separator                       ((,class (:background ,winter-blue :foreground ,light-blue :strike-through t))))
      `(vertico-current                               ((,class (:foreground ,carp-yellow :weight bold :slant italic :background ,wave-blue-1))))
 
      `(vertico-posframe-border                       ((,class (:background ,sumi-ink-3))))
