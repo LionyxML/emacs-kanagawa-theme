@@ -8,6 +8,14 @@ The theme has some options that can be tweaked via =M-x customize=:
 This toggles italics for comments.
 - =kanagawa-theme-keyword-italic=
 This toggles italics for keywords.
+- =kanagawa-theme-underline-parens=
+This toggles the underline of matching parens when using show-paren-mode or similar whereas inappearant though.
+- =kanagawa-theme-org-bold=
+This toggles bold text for org headings.
+- =kanagawa-theme-org-height=
+This toggles the use of varying org headings heights.
+- =kanagawa-theme-org-priority-bold=
+This toggles bold text for priority items in agenda view.
 ** Acknowledgement
 - [[https://github.com/konrad1977/kanagawa-emacs][konrad1977/kanagawa-emacs]]
 - [[https://github.com/rebelot/kanagawa.nvim][rebelot/kanagawa.nvim]]
