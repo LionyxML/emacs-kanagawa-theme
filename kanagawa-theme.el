@@ -1,4 +1,4 @@
-;;; kanagawa-theme.el --- Retro elegant theme -*- lexical-binding: t -*-
+;;; kanagawa-theme.el --- An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2023 Mikael Konradsson
 ;; Copyright (C) 2023 Meritamen <meritamen@sdf.org>
@@ -33,8 +33,8 @@
 
 ;;; Commentary:
 
-;; Kanagawa is a theme inspired by the colors of the famous painting by
-;; Katsushika Hokusa. 
+;; Kanagawa is a theme inspired by the colors of the famous painting
+;; The Great Wave off Kanagawa by Katsushika Hokusa.
 ;; Original theme created by rebelot see: https://github.com/rebelot/kanagawa.nvim
 
 ;;; Code:
