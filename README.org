@@ -1,5 +1,6 @@
 * kanagawa-theme
 [[https://melpa.org/#/kanagawa-theme][file:https://melpa.org/packages/kanagawa-theme-badge.svg]]
+[[https://www.gnu.org/licenses/gpl-3.0][file:https://img.shields.io/badge/License-GPLv3-blue.svg]]
 
 Palette of Emacs theme in [[https://github.com/rebelot/kanagawa.nvim][kanagawa.nvim]] isn't 100% aligned with the original Neovim kanagawa theme, thus I adjusted to myself preference. +You need to have the =autothemer= package installed.+
 ** Customizations
