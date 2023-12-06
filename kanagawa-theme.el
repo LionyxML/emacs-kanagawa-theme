@@ -55,15 +55,6 @@
   :type 'boolean
   :group 'kanagawa-theme)
 
-(defcustom kanagawa-theme-org-agenda-height nil
-  "If non-nil, use varying text heights for agenda items.
-
-Note that if you change this to a non-nil value, you may want to
-also adjust the value of `org-agenda-tags-column'. If that is set
-to 'auto, tags may not be properly aligned. "
-  :type 'boolean
-  :group 'kanagawa-theme)
-
 (defcustom kanagawa-theme-org-height t
   "Use varying text heights for org headings."
   :type 'boolean
@@ -424,8 +415,8 @@ to 'auto, tags may not be properly aligned. "
      `(all-the-icons-purple                          ((,class (:foreground ,spring-violet-2))))
 
      ;; evil
-     `(evil-ex-lazy-highlight                        ((,class (:foreground ,winter-green :background autumn-green :weight bold))))
-     `(evil-ex-substitute-matches                    ((,class (:foreground ,winter-red :background autumn-red :weight bold))))
+     `(evil-ex-lazy-highlight                        ((,class (:foreground ,winter-green :background ,autumn-green :weight bold))))
+     `(evil-ex-substitute-matches                    ((,class (:foreground ,winter-red :background ,autumn-red :weight bold))))
      `(evil-ex-substitute-replacement                ((,class (:foreground ,surimi-orange :strike-through unspecified :inherit evil-ex-substitute-matches))))
      `(evil-search-highlight-persist-highlight-face  ((,class (:background ,carp-yellow))))
 
