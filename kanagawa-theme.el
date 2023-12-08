@@ -4,7 +4,7 @@
 ;; Copyright (C) 2023 Meritamen <meritamen@sdf.org>
 
 ;; Author: Meritamen <meritamen@sdf.org>
-;; URL: https://github.com/Meritamen/kanagawa-theme
+;; URL: https://github.com/Meritamen/emacs-kanagawa-theme
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24.3"))
 ;; Created: 16 September 2023
