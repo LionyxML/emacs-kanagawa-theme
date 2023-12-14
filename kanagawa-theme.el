@@ -422,7 +422,7 @@
 
      ;; term
      `(term                                          ((,class (:background ,sumi-ink-0 :foreground ,fuji-white))))
-     `(term-color-blue                               ((,class (:background mcrystal-blue :foreground ,crystal-blue))))
+     `(term-color-blue                               ((,class (:background ,crystal-blue :foreground ,crystal-blue))))
      `(term-color-bright-blue                        ((,class (:inherit term-color-blue))))
      `(term-color-green                              ((,class (:background ,wave-aqua-2 :foreground ,wave-aqua-2))))
      `(term-color-bright-green                       ((,class (:inherit term-color-green))))
