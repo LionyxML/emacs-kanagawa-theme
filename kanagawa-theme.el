@@ -80,6 +80,8 @@
   :type 'boolean
   :group 'kanagawa-theme)
 
+(deftheme kanagawa "An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa")
+
 (defun true-color-p ()
   (or (display-graphic-p)
       (= (tty-display-color-cells) 16777216)))
@@ -569,8 +571,6 @@
      `(tree-sitter-hl-face:keyword.compiler          ((,class (:foreground ,peach-red :slant italic))))
 
      `(focus-unfocused                               ((,class (:foreground ,sumi-ink-4)))))))
-
-(deftheme kanagawa "An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa")
 
 (create-kanagawa-theme 'kanagawa)
 
