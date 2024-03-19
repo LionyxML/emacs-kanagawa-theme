@@ -17,6 +17,8 @@ This toggles bold text for org headings.
 This toggles the use of varying org headings heights.
 - =kanagawa-theme-org-priority-bold=
 This toggles bold text for priority items in agenda view.
+- =kanagawa-theme-custom-colors=
+This specifies a list of custom colors.
 ** Acknowledgement
 - [[https://github.com/konrad1977/kanagawa-emacs][konrad1977/kanagawa-emacs]]
 - [[https://github.com/rebelot/kanagawa.nvim][rebelot/kanagawa.nvim]]
