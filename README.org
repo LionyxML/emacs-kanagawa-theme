@@ -2,7 +2,7 @@
 [[https://melpa.org/#/kanagawa-theme][file:https://melpa.org/packages/kanagawa-theme-badge.svg]]
 [[https://www.gnu.org/licenses/gpl-3.0][file:https://img.shields.io/badge/License-GPLv3-blue.svg]]
 
-Palette of Emacs theme in [[https://github.com/rebelot/kanagawa.nvim][kanagawa.nvim]] isn't 100% aligned with the original Neovim kanagawa theme, thus I adjusted to myself preference. +You need to have the =autothemer= package installed.+
+Kanagawa for Emacs is a tuned port of the [[https://github.com/rebelot/kanagawa.nvim][kanagawa]] theme for neovim, originally [[https://github.com/konrad1977][konrad1977]] created the [[https://github.com/konrad1977/kanagawa-emacs][emacs version]] based on the color palette of neovim, subsequently I modified the background color such that consistent with neovim version, abandoned =autothemer= dependency, and improved variable naming style. Images are here: [[https://emacsthemes.com/themes/kanagawa-theme.html][https://emacsthemes.com/themes/kanagawa-theme]]
 ** Customizations
 The theme has some options that can be tweaked via =M-x customize=:
 - =kanagawa-theme-comment-italic=
