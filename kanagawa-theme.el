@@ -489,8 +489,11 @@
  `(hydra-face-red                                ((,class (:foreground ,peach-red))))
  `(hydra-face-teal                               ((,class (:foreground ,light-blue))))
 
+ ;; tab-bar
+ `(tab-bar                                       ((,class (:background ,sumi-ink-1b))))
+ `(tab-bar-tab-inactive                          ((,class (:foreground ,sumi-ink-4 :background ,sumi-ink-1b))))
+ 
  ;; centaur-tabs
-
  `(centaur-tabs-active-bar-face                  ((,class (:background ,spring-blue :foreground ,fuji-white))))
  `(centaur-tabs-selected                         ((,class (:background ,sumi-ink-1b :foreground ,fuji-white :weight bold))))
  `(centaur-tabs-selected-modified                ((,class (:background ,sumi-ink-1b :foreground ,fuji-white))))
